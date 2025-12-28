@@ -12,7 +12,7 @@ load_dotenv()
 
 client = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/",
-    api_key="AIzaSyBTiydPIe4hceZno-JwnmQRaCEG2Xw7JRA",
+    api_key="",
 )
 def run_command(cmd: str):
     result = os.system(cmd)
